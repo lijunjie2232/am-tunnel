@@ -25,8 +25,9 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv4.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv6.txt', //IPv6优选内容格式 自行搭建。
+	'https://raw.githubusercontent.com/lijunjie2232/am-tunnel/dev/ips.txt',
+	// 'https://raw.githubusercontent.com/lijunjie2232/am-tunnel/dev/ipv4.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/lijunjie2232/am-tunnel/dev/ipv6.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
